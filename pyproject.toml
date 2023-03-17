@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "data madness group 31 - data analysis ken3450"
+version = "0.1.0"
+description = "See README.md"
+authors = ["Wouter Dobber, Jelte Bron and Martijn Elands"]
+readme = "README.md"
+packages = [{include = "data madness group 31 _ data analysis ken3450"}]
+
+[tool.poetry.dependencies]
+python = "3.9.6"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+scikit-learn = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.21.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
