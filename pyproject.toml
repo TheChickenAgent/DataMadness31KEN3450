@@ -7,10 +7,11 @@ readme = "README.md"
 packages = [{include = "data madness group 31 _ data analysis ken3450"}]
 
 [tool.poetry.dependencies]
-python = "3.9.6"
+python = "3.11.2"
 numpy = "^1.24.2"
 pandas = "^1.5.3"
 scikit-learn = "^1.2.2"
+matplotlib = "^3.7.1"
 
 
 [tool.poetry.group.dev.dependencies]
